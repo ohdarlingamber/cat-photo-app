@@ -1,9 +1,10 @@
 body {
-    display: flex;
+   /* display: flex;
     flex-direction: column;
     flex; 1;
+    min-height: 100vh; */
     margin: 0;
-    min-height: 100vh;
+    padding: 0;
     background-color: aqua;
 }
 
@@ -16,9 +17,10 @@ body {
     background-color: blueviolet;
     align-items: center;
     text-align: center;
-    padding: 0 16px;
+    padding: 16px;
     font-size: 18px;
     text-shadow: 4px 4px 9px white;
+    width: 100%;
 }
 
 .header h3 {
@@ -51,4 +53,92 @@ body {
 .navbar a {
     text-decoration: none;
     font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+.footer {
+    background-color: greenyellow;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    padding: 4px;
+    bottom: 0;
+    border-top: 2px solid black;
+    box-shadow: 0 -2px 10px black;
+    font-size: 12px;
+    position: relative;
+    clear: both;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer li {
+    margin: 2px 0;
+}
+
+/* Footer links */
+
+.pet-finder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pet-finder a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    margin: 2px 0;
+}
+
+.pet-finder a:hover {
+    opacity: 0.7;
+}
+
+/* footer icons */
+.fa {
+    padding: 15px;
+    font-size: 10px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10%;
+    box-shadow: 10 10px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.footer .fa {
+    font-size: 16px;
+    padding: 5px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+    background: rgb(255, 0, 144);
+    color: white;
 }
