@@ -14,29 +14,36 @@ body {
 /* Header */
 
 .header {
-    background-color: blueviolet;
+    background-color: rgb(132, 0, 255);
     align-items: center;
     text-align: center;
     padding: 16px;
     font-size: 18px;
     text-shadow: 4px 4px 9px white;
-    width: 100%;
+  
+
 }
 
+
+.header h1 {
+    color: rgb(0, 0, 0);
+    font-family: 'sixtyfour convergence', sans-serif;
+}
 .header h3 {
     color: white;
+    font-family: 'koulen', sans-serif;
 }
 
 /*Navigation bar*/
 
 .navbar {
-    background-color: #ff96ff;
+    background-color: #ec76ec;
     display: flex;
     width: 100%;
     justify-content: center;
     box-sizing: border-box;
     padding: 16px;
-    font-weight: bold;
+    font-family: 'pacifico', sans-serif;
 }
 
 .navbar ul {
@@ -74,10 +81,9 @@ body {
     bottom: 0;
     border-top: 2px solid black;
     box-shadow: 0 -2px 10px black;
-    font-size: 12px;
-    position: relative;
-    clear: both;
+    font-family: 'caveat', sans-serif;
     width: 100%;
+    font-size: 14px;
 }
 
 .footer-container {
