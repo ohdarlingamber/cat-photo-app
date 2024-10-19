@@ -70,7 +70,85 @@ body {
 }
 
 
+/* Form */
 
+.about-cat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin: 16px;
+    padding: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(246, 98, 246);
+    box-shadow: 0 0 10px black;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 16px;
+    margin: 16px;
+    padding: 16px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(246, 98, 246);
+    box-shadow: 0 0 10px black;
+}
+
+.required { 
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin: 16px;
+    padding: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(246, 98, 246);
+    box-shadow: 0 0 10px black;
+}
+
+.your-info, .cat-info {
+    margin-bottom: 5px;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin: 16px;
+    
+    padding: 16px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px black;
+}
+
+.form h2 {
+    color: black;
+    font-family: 'pacifico', sans-serif;
+}
+
+.form2 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.cat-info {
+    text-align: center;
+}
 
 
 
@@ -90,7 +168,7 @@ body {
     font-family: 'caveat', sans-serif;
     width: 100%;
     font-size: 14px;
-    position: absolute;
+    position: fixed;
 }
 
 .footer-container {
